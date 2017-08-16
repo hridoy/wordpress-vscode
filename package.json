@@ -1,0 +1,58 @@
+{
+    "name": "wordpress",
+    "displayName": "Wordpress Devlopment",
+    "description": "Wordpress Development Toolkit",
+    "version": "1.0.0",
+    "publisher": "hridoy",
+    "icon": "img/icon.png",
+    "galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+	},
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hridoy/wordpress-devleopment-vscode"
+    },
+    "keywords": [
+        "Wordpress",
+        "Wordpress Snippet",
+        "Wordpress Snippet",
+        "Wordpress Theme",
+        "Wordpress Plugin"
+    ],
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/core-classes.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/core-functions.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/core-hooks.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/core-methods.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/custom/dashboard-functions.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/custom/meta-tag-functions.json"
+            }
+        ]
+    }
+}
