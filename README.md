@@ -1,16 +1,16 @@
 # Wordpress Devlopment Toolkit
 
-**Now Updated for Wordpress 4.8.1 release**
+**Now Updated for WordpPess 4.8.1 release**
 
-This extension for Visual Studio Code adds snippets for Wordpress. More Snippts will coming soong just relase.
+This extension for Visual Studio Code adds snippets for WordPress. More Snippets will coming soon just release.
 
-![Use Extension](https://github.com/hridoy/wordpress-development-vscode/blob/master/img/snippest-preview.jpg)
+[Use Extension](https://github.com/hridoy/wordpress-development-vscode/blob/master/img/snippest-preview.jpg)
 
 ## Contributors
 
 <!-- Contributors table start -->
-| [![Hridoy](https://avatars.githubusercontent.com/hridoy?s=100)<br /><sub>Hridoy</sub>](http://github.com/hridoy)<br />|
-| :---: | :---: |
+[![Hridoy](https://avatars.githubusercontent.com/hridoy?s=100)<br /><sub>Hridoy</sub>](http://github.com/hridoy)<br />
+
 <!-- Contributors table END -->
 See the [CHANGELOG](https://github.com/hridoy/wordpress-development-vscode/master/CHANGELOG.md) for the latest changes
 
@@ -29,24 +29,39 @@ add_action                        // Core Hooks a function on to a specific acti
 
 ### Custom Snippets List
 ```php
-1. Dashboard functions        // 20 Added
-2. Meta tag functions        // 5 Added
+1. Dashboard functions          // 20 Added
+2. Meta tag functions           // 5 Added
+3. Shoertcode functions         // 5 Added
+2. Widget functions           // 5 Added
 ```
 
 
 
-### 1. Custom Dashboard Snippets
+### 1. Dashboard Snippets
 ```php
 wp_change_admin_footer_text                    // Change Dashboard footer text
 wp_disable_visual_editor                       // Disable Visual Editor
 wp_change_admin_logo                           // Change Admin Logo
-wp_add_thumbnail_column_to_post_list           // Add thumbnail column to post listing
+wp_column_thumbnail_to_post_list               // Add thumbnail column to post listing
 wp_remove_admin_bar                            // Remove Admin Bar
+wp_remove_dashboard_css                        // Remove Dashboard Css
+wp_remove_dashboard_widget                     // Remove dashboard widget
 ```
 
-### 1. Custom Meta Tag Snippets
+### 2. Meta Tag Snippets
 ```php
 wp_meta_open_graph                               // Add open graph meta tag
+```
+
+### 3. Shortcode Snippets
+```php
+wp_shortcode_member_content                      // Only Member can view the content
+```
+
+### 3. Widget Snippets
+```php
+wp_widget_disable_page                           //Disbale widget from custom page
+wp_widget_disable_page_and_role                  //Disable Widget from Specific page by user role
 ```
 
 

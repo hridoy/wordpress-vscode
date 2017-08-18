@@ -1,8 +1,8 @@
 {
     "name": "wordpress",
     "displayName": "Wordpress Devlopment",
-    "description": "Wordpress Development Toolkit",
-    "version": "1.0.0",
+    "description": "wordpress development toolkit",
+    "version": "1.0.1",
     "publisher": "hridoy",
     "icon": "img/icon.png",
     "galleryBanner": {
@@ -47,11 +47,19 @@
             },
             {
                 "language": "php",
-                "path": "./snippets/custom/dashboard-functions.json"
+                "path": "./snippets/custom/dashboard.json"
             },
             {
                 "language": "php",
-                "path": "./snippets/custom/meta-tag-functions.json"
+                "path": "./snippets/custom/meta_tag.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/custom/shortcode.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/custom/widget.json"
             }
         ]
     }
