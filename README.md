@@ -1,8 +1,8 @@
-# Wordpress Devlopment Toolkit
+# Wordpress Development Toolkit
 
 **Now Updated for WordpPess 4.8.1 release**
 
-This extension for Visual Studio Code adds snippets for WordPress. More Snippets will coming soon just release.
+This extension for Visual Studio Code adds snippets for WordPress. More Snippets will coming soon in a new release.
 
 [Use Extension](https://github.com/hridoy/wordpress-development-vscode/blob/master/img/snippest-preview.jpg)
 
